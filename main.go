@@ -66,7 +66,7 @@ func getColumnIndices(headers []string) map[string]int {
 			columnIndices["Date"] = i
 		case "Naam tegenpartij":
 			columnIndices["Payee"] = i
-		case "Omschrijving-1":
+		case "Omschrijving":
 			columnIndices["Memo"] = i
 		case "Bedrag":
 			columnIndices["Amount"] = i
